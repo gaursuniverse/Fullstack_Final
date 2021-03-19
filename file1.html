@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Practical</title>
+
+    <!-- Icon css link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+        *{
+            padding: 0;
+            margin:0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header{
+            width:100%;
+            height: 70px;
+            background-color:rgb(37, 37, 37);
+            padding: 0 20px ;
+            position: fixed;
+
+        }
+        .header .menu{
+            list-style:none;
+            float: right;
+        }
+        .menu li{
+            display: inline-block;
+            line-height: 50px;
+        }
+        .menu li a{
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            text-transform: uppercase;
+            padding:0px 20px ;
+            transition: .4s;
+        }
+        .menu li a.hover{
+            color: grey;
+        }
+        .list1{
+            background-color: rgb(22, 216, 22);
+            border-radius: 5px;
+            height: 43px;
+            margin-top: 15px;
+        }
+
+        h1{
+            font-size: 50px;
+            text-align: center;
+            color: rgb(37, 37, 37);
+            margin-bottom: 15px;
+
+        }
+        hr{
+            margin: 0px auto;
+            width: 60px;
+            background-color: rgb(22, 216, 22);
+            height: 8px;
+            border-radius: 2px;
+            margin-bottom: 50px;
+            border: none;
+        }
+        p{
+            text-align: center;
+            margin-bottom: 60px;
+            line-height: 22px;
+            color: grey;
+        }
+
+        .test p{
+            margin-bottom: 60px;
+            line-height: 22px;
+            color: grey;
+            text-align: justify;
+        }
+        .test{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        section{
+            padding: 50px;
+            margin: 30px;
+        }
+        .box{
+            width: 30%;
+            padding: 20px;
+            margin: 30px;
+        }
+        img{
+            display: block;
+            margin: auto;
+            width: 40%;
+
+        }
+        h3{
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 25px;
+        }
+        h4{
+            text-align: center;
+            margin-bottom: 10px;
+
+            color: gray;
+        }
+        .rate{
+            margin: auto;
+            margin-bottom: 10px;
+            text-align: center;
+
+        }
+        .rate i{
+            color: rgb(22, 216, 22);
+        }
+    </style>
+
+</head>
+<body>
+
+<!----------- Header ---------------->
+<header>
+    <div class="header">
+        <nav id="logo" class><a href="Koral"></a></nav>
+
+        <ul class="menu">
+            <li class="list1"><a href="#">HOME</a></li>
+            <li><a href="#">PAGES</a></li>
+            <li><a href="#">ELEMENTS</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#"><i class="fa fa-search" ></i></a></li>
+            <li><a href="#"><i class="fa fa-shopping-cart" ></i></a></li>
+        </ul>
+
+    </div>
+</header>
+
+<br><br>
+
+<section>
+    <h1>Our Loverly Team</h1>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quasi repellat id? Tenetur molestias quisquam laudantium repellendus unde repellat quia odit deleniti accusamus dolorem adipisci eos soluta, quo non aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quasi repellat id? Tenetur molestias quisquam laudantium repellendus unde repellat </p>
+    <div class="test">
+        <div class="box" id="box1">
+            <img src="./Images/male-icon1.jpg" alt="">
+            <h3>JD Scot</h3>
+            <h4>CEO Qwilo</h4>
+            <div class="rate">
+                <i class="fa fa-star"></i> <i  i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ipsam temporibus fugit doloremque numquam! Autem temporibus, saepe aliquam eos veritatis impedit ipsam numquam eum fuga sint voluptatibus maiores minima animi? </p>
+        </div>
+
+        <div class="box" id="box2">
+            <img src="./Images/male-icon1.jpg" alt="">
+            <h3>JD Scot</h3>
+            <h4>CEO Qwilo</h4>
+            <div class="rate">
+                <i class="fa fa-star"></i> <i  i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ipsam temporibus fugit doloremque numquam! Autem temporibus, saepe aliquam eos veritatis impedit ipsam numquam eum fuga sint voluptatibus maiores minima animi?</p>
+        </div>
+
+        <div class="box" id="box3">
+            <img src="./Images/male-icon1.jpg" alt="">
+            <h3>JD Scot</h3>
+            <h4>CEO Qwilo</h4>
+            <div class="rate">
+                <i class="fa fa-star"></i> <i  i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ipsam temporibus fugit doloremque numquam! Autem temporibus, saepe aliquam eos veritatis impedit ipsam numquam eum fuga sint voluptatibus maiores minima animi?</p>
+        </div>
+    </div>
+</section>
+</body>
+</html>
